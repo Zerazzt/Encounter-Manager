@@ -4,8 +4,7 @@
 void application::MAIN::open(void)
 {
 	components = gcnew System::ComponentModel::Container();
-	Name = L"Character_Sheet";
-	Text = L"Character Sheet";
+	Text = L"Encounter Manager";
 	Padding = System::Windows::Forms::Padding(0);
 	AutoScaleMode = System::Windows::Forms::AutoScaleMode::None;
 	MaximizeBox = false;

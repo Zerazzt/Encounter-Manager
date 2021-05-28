@@ -7,6 +7,7 @@ namespace application {
 		MAIN(void)
 		{
 			open();
+			createButton();
 		}
 	protected:
 		~MAIN()
@@ -17,8 +18,10 @@ namespace application {
 			}
 		}
 	private:
-		System::Windows::Forms::Button^ testButton;
+		System::Windows::Forms::Button^ testB;
 		System::ComponentModel::Container ^components;
 		void open(void);
+		void createButton(void);
+		void test(System::Object^ send, System::EventArgs^ e);
 	};
 }
