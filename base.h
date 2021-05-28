@@ -17,6 +17,7 @@ namespace application {
 			}
 		}
 	private:
+		System::Windows::Forms::Button^ testButton;
 		System::ComponentModel::Container ^components;
 		void open(void);
 	};
