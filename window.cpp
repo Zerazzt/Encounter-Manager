@@ -3,14 +3,14 @@
 
 void application::MAIN::open(void)
 {
-	this->components = gcnew System::ComponentModel::Container();
-	this->Name = L"Character_Sheet";
-	this->Text = L"Character Sheet";
-	this->Padding = System::Windows::Forms::Padding(0);
-	this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::None;
-	this->MaximizeBox = false;
-	this->MaximumSize = System::Drawing::Size(1266, 639);
-	this->MinimumSize = System::Drawing::Size(1266, 639);
-	this->SizeGripStyle = System::Windows::Forms::SizeGripStyle::Hide;
-	this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
+	components = gcnew System::ComponentModel::Container();
+	Name = L"Character_Sheet";
+	Text = L"Character Sheet";
+	Padding = System::Windows::Forms::Padding(0);
+	AutoScaleMode = System::Windows::Forms::AutoScaleMode::None;
+	MaximizeBox = false;
+	MaximumSize = System::Drawing::Size(1266, 639);
+	MinimumSize = System::Drawing::Size(1266, 639);
+	SizeGripStyle = System::Windows::Forms::SizeGripStyle::Hide;
+	StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
 }
