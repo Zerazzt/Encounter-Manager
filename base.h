@@ -19,7 +19,7 @@ namespace application {
 		}
 	private:
 		System::Windows::Forms::Button^ testB;
-		System::ComponentModel::Container ^components;
+		System::ComponentModel::Container^ components;
 		void open(void);
 		void createButton(void);
 		void test(System::Object^ send, System::EventArgs^ e);

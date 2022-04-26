@@ -1,10 +1,14 @@
 #include "pch.h"
+
+using namespace System;
 #include "base.h"
 
-[System::STAThread]
+using namespace System::Windows::Forms;
+
+[STAThread]
 int main() {
-	System::Windows::Forms::Application::EnableVisualStyles();
-	System::Windows::Forms::Application::SetCompatibleTextRenderingDefault(false);
-	System::Windows::Forms::Application::Run(gcnew application::MAIN());
+	Application::EnableVisualStyles();
+	Application::SetCompatibleTextRenderingDefault(false);
+	Application::Run(gcnew application::MAIN()); 
 	return 0;
 }
