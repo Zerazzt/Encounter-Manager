@@ -8,6 +8,7 @@ namespace application {
 		{
 			open();
 			createButton();
+			createCombatElements();
 		}
 	protected:
 		~MAIN()
@@ -18,10 +19,14 @@ namespace application {
 			}
 		}
 	private:
-		System::Windows::Forms::Button^ testB;
 		System::ComponentModel::Container^ components;
+
+		System::Windows::Forms::Button^ testB;
+		System::Windows::Forms::ComboBox^ combat;
+
 		void open(void);
 		void createButton(void);
+		void createCombatElements(void);
 		void test(System::Object^ send, System::EventArgs^ e);
 	};
 }

@@ -13,3 +13,14 @@ void application::MAIN::open(void)
 	SizeGripStyle = System::Windows::Forms::SizeGripStyle::Hide;
 	StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
 }
+
+void application::MAIN::createCombatElements(void)
+{
+	combat = gcnew System::Windows::Forms::ComboBox();
+	components->Add(combat);
+	combat->DropDownStyle = System::Windows::Forms::ComboBoxStyle::Simple;
+	combat->Location = System::Drawing::Point(5, 30);
+	combat->Size = System::Drawing::Size(100, 400);
+	combat->Name = L"combat";
+	Controls->Add(combat);
+}
