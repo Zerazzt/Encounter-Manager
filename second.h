@@ -18,17 +18,17 @@ namespace application {
 				delete components;
 			}
 		}
-	private:;
-		   System::Windows::Forms::TextBox^ name;
-		   System::Windows::Forms::TextBox^ size;
-		   System::Windows::Forms::TextBox^ type;
-		   System::Windows::Forms::TextBox^ alignment;
-		   System::Windows::Forms::NumericUpDown^ armourClass;
-		   System::Windows::Forms::NumericUpDown^ hitPoints;
+	private:
+		System::ComponentModel::Container^ components;
 
-		   System::ComponentModel::Container^ components;
+		System::Windows::Forms::TextBox^ name;
+		System::Windows::Forms::TextBox^ size;
+		System::Windows::Forms::TextBox^ type;
+		System::Windows::Forms::TextBox^ alignment;
+		System::Windows::Forms::NumericUpDown^ armourClass;
+		System::Windows::Forms::NumericUpDown^ hitPoints;
 
-		   void open(void);
-		   void bar1(void);
+		void open(void);
+		void bar1(void);
 	};
 }
